@@ -1,7 +1,7 @@
 from flask import Flask, request, Response, redirect
 import requests
 from urllib.parse import urlparse, urljoin
-import re
+import os  # ← ADD THIS LINE
 
 app = Flask(__name__)
 
